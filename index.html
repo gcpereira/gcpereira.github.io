@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio - Gustavo Pereira</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="container-fluid">
+
+      <header>
+        <div class="row">
+          <div class="col-md-4 col-xs-4">
+            <picture class="logo">
+              <source media="(min-width: 750px)" srcset="assets/images/tijolo_logo.png" alt="Tijolo">
+              <source media="(min-width: 490px)" srcset="assets/images/tijolo_letters.png" alt="Tijolo">
+              <img src="assets/images/tijolo_bloco.png" class="img-responsive" alt="Tijolo">
+            </picture>
+          </div>
+          <div class="col-md-8 col-xs-8">
+            <div class="perfil">
+              <h1 class="text-uppercase">Gustavo Pereira </h1>
+              <h4>Javascript Lover</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="grey-line"></div>
+
+            <ul class="social nav nav-pills nav-justified">
+              <li><a href="https://br.linkedin.com/in/gustavocpereira" target="_parent"><i class="fa fa-linkedin-square fa-2" aria-hidden="true"></i> LinkedIn</a></li>
+              <li><a href="https://github.com/gcpereira" target="_parent"><i class="fa fa-github fa-2" aria-hidden="true"></i> GitHub</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="assets/images/destaque.jpeg" class="img-responsive" alt="Uma imagem bacana aqui!">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Featured Works</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="grey-line"></div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section>
+          <div class="row">
+          <article class="col-sm-6 col-xs-12">
+            <div class="card-work" data-toggle="modal" data-target="#work1">
+              <picture>
+                <source media="(min-width: 768px)" srcset="assets/images/work_s.png" alt="Projeto 1: lorem ipsum">
+                <source media="(min-width: 490px)" srcset="assets/images/work_m.png" alt="Projeto 1: lorem ipsum">
+                <img src="assets/images/work_m.png" class="img-responsive" alt="Projeto 1: lorem ipsum">
+              </picture>
+              <h3>
+                Work 1
+                <a href="https://github.com/gcpereira/udacity" class="pull-right" target="_parent"><i class="fa fa-github fa-2" aria-hidden="true"></i></a>
+              </h3>
+            </div>
+
+            <div class="grey-line"></div>
+          </article>
+
+          <article class="col-sm-6 col-xs-12">
+            <div class="card-work" data-toggle="modal" data-target="#work2">
+              <picture>
+                <source media="(min-width: 768px)" srcset="assets/images/work_s.png" alt="Projeto 2: lorem ipsum">
+                <source media="(min-width: 490px)" srcset="assets/images/work_m.png" alt="Projeto 2: lorem ipsum">
+                <img src="assets/images/work_m.png" class="img-responsive" alt="Projeto 1: lorem ipsum">
+              </picture>
+              <h3>
+                Work 2
+                <a href="https://github.com/gcpereira/udacity" class="pull-right" target="_parent"><i class="fa fa-github fa-2" aria-hidden="true"></i></a>
+              </h3>
+            </div>
+
+            <div class="grey-line"></div>
+          </article>
+
+          <article class="col-sm-12">
+            <div class="card-work" data-toggle="modal" data-target="#work3">
+              <picture>
+                <source media="(min-width: 768px)" srcset="assets/images/work_l.png" alt="Projeto 3: lorem ipsum">
+                <img src="assets/images/work_m.png" class="img-responsive" alt="Projeto 3: lorem ipsum">
+              </picture>
+              <h3>
+                Work 3
+                <a href="https://github.com/gcpereira/udacity" class="pull-right" target="_parent"><i class="fa fa-github fa-2" aria-hidden="true"></i></a>
+              </h3>
+            </div>
+
+            <div class="grey-line"></div>
+          </article>
+          </div>
+        </section>
+
+      </section>
+    </main>
+
+    <!-- Modals -->
+
+    <!-- Modal work 1-->
+    <div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Work 1</h4>
+          </div>
+
+          <div class="modal-body">
+            <picture>
+              <source media="(max-width: 490px)" srcset="assets/images/work_s.png" alt="Projeto 1: lorem ipsum">
+              <img src="assets/images/work_m.png" class="img-responsive" alt="Projeto 1: lorem ipsum">
+            </picture>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo consequuntur corporis nostrum itaque quasi facilis eaque delectus minus dicta tempora, assumenda natus voluptas. Vero labore sapiente tempora, libero asperiores velit.
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <a href="#" class="btn btn-see-on">See on <i class="fa fa-github fa-2" aria-hidden="true"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal work 2 -->
+    <div class="modal fade" id="work2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Work 2</h4>
+          </div>
+
+          <div class="modal-body">
+            <picture>
+              <source media="(max-width: 490px)" srcset="assets/images/work_s.png" alt="Projeto 1: lorem ipsum">
+              <img src="assets/images/work_m.png" class="img-responsive" alt="Projeto 1: lorem ipsum">
+            </picture>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo consequuntur corporis nostrum itaque quasi facilis eaque delectus minus dicta tempora, assumenda natus voluptas. Vero labore sapiente tempora, libero asperiores velit.
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <a href="#" class="btn btn-see-on">See on <i class="fa fa-github fa-2" aria-hidden="true"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal work 3-->
+    <div class="modal fade" id="work3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Work 3</h4>
+          </div>
+
+          <div class="modal-body">
+            <picture>
+              <source media="(max-width: 490px)" srcset="assets/images/work_s.png" alt="Projeto 1: lorem ipsum">
+              <img src="assets/images/work_m.png" class="img-responsive" alt="Projeto 1: lorem ipsum">
+            </picture>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo consequuntur corporis nostrum itaque quasi facilis eaque delectus minus dicta tempora, assumenda natus voluptas. Vero labore sapiente tempora, libero asperiores velit.
+            </p>
+          </div>
+
+          <div class="modal-footer">
+            <a href="#" class="btn btn-see-on">See on <i class="fa fa-github fa-2" aria-hidden="true"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js">
+
+    </script>
+  </body>
+</html>
